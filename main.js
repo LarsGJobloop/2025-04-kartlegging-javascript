@@ -21,9 +21,14 @@ function decrement() {
   let countElement = document.getElementById("count")
   
   let previousValue = Number(countElement.textContent)
-  let newValue = previousValue - 1
+  let isGreaterThanZero = previousValue > 0
 
+  if (isGreaterThanZero) {
+  let newValue = previousValue - 1
   countElement.textContent = newValue
+  } else {
+    console.log("Number is 0")
+  }
 }
 
 function reset() {
