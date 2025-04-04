@@ -1,0 +1,12 @@
+body {
+  background-color: rgb(184, 207, 248);
+  color: rgb(114, 45, 19);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.underline {
+  text-decoration: underline;
+}
